@@ -1,0 +1,114 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#profile-section {
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 98px;
+    text-align: center;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#profile-info {
+    font-family: fantasy;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#profile-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#profile-info p {
+    color: #666;
+}
+
+.portfolio-section{
+    background-color: #a6a6a6;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
